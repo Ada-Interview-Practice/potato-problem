@@ -61,7 +61,7 @@ assert my_potato.tubers[0].energy == 55
 assert my_potato.tubers[1].energy == 55
 
 # Checking the behavior for absorbing sunlight for a 
-# potato with one tuber
+# potato with no tubers
 new_potato = Potato(30)
 new_potato.absorb_sunlight(40)
 assert new_potato.energy == 70
